@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body bgcolor="#f0f0f0"
+    style="font-family: 'Inter', sans-serif; color: #9f9f9f;       max-width: 700px;       margin: auto;">
+    <header>
+        <table style="padding: 0 12px">
+            <tr>
+                <td>
+                    <div class="logo"> <img
+                            src="https://plugin.markaimg.com/public/1b00812b/AUUikoHPzkz5D77IjzUVYwi9bvXNqr.png"
+                            border="0" style="width: 50px" /> </div>
+                </td>
+                <td style="width: 100%"></td>
+                <td>
+                    <div class="right">
+                        <div class="tabs" style="display: flex; padding-right: 10px">
+                            <div class="tab" style="padding: 0 5px"> <a href="https://beta.solesearchindia.com/"
+                                    style="text-decoration: inherit; color: inherit"> Shop </a> </div>
+                            <div class="tab" style="padding: 0 5px"> <a href="https://beta.solesearchindia.com/blogs"
+                                    style="text-decoration: inherit; color: inherit"> Blogs </a> </div>
+                            <div class="tab" style="padding: 0 5px"> <a
+                                    href="https://beta.solesearchindia.com/contact-us"
+                                    style="text-decoration: inherit; color: inherit"> Contact </a> </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div
+        style="         margin: 10px 20px;         padding: 20px;         background-color: #fdfdfd;         border-radius: 5px;       ">
+        <center>
+            <div class="title" style="color: #1ac02a; font-size: 32px; font-weight: bold"> Product Listing Approved </div> <img
+                src=https://res.cloudinary.com/dx8gt3nnu/image/upload/email-assets/thumbs-up.png width="200"
+                alt="Bid Approved" style="margin: 50px 0" />
+        </center>
+        <div style="font-size: 11px">
+            <p>Hey <strong style="color: #303030">[username]</strong>,</p>
+            <p>Your listing of the <strong style="color: #303030">[productName]</strong> has been successfully accepted. Your product will now be listed [noOfDays] days.</p>
+            <p>If your product is purchased within [noOfDays] days you will receive an email notification of the order. If your product remains unsold post [noOfDays] days, your product will automatically be de-listed from the platform.</p>
+            <p>You can find the details of your listing below.</p>
+
+                <br />
+             <br /> <br />
+            <p>Here’s what you listed:</p>
+            <div class="table">
+                <div class="table-row">
+                    <table style="width: 100%">
+                        <tr style="color: #303030">
+                            <th style="text-align: left">Item</th>
+                            <th style="text-align: right">Price</th>
+                        </tr>
+                    </table>
+                    <div style="height: 1px; background: #e5e5e5; margin: 5px 0"></div>
+                </div>
+                <div class="table-row">
+                    <table style="width: 100%">
+                        <tr>
+                            <td style="text-align: left">
+                                <table>
+                                    <tr>
+                                        <td> <img src=[productImage] width="50" alt="[productName]" /> </td>
+                                        <td>
+                                            <div> <strong style="color: #303030">[productName]</strong> </div>
+                                            <p>Condition: 
+                                              <strong style="color: #303030">[productCondition]</strong> | Size: <strong style="color: #303030">[size]</strong></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="text-align: right">[productPrice]</td>
+                        </tr>
+                    </table>
+                    <div style="height: 1px; background: #e5e5e5; margin: 5px 0"></div>
+                    <div class="table-footer" style="text-align: right">
+                        <p>
+                        <div>Product Price: [productPrice]</div>
+                        <div>Platform Fees: [platformFees]</div>
+                        </p>
+                        <hr />
+                        <div> <strong style="color: #303030"> Payout Price: [payoutPrice] </strong> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+      <center>
+        <p>
+          <small>
+<small>
+
+  Questions? Suggestions? insightful show thoughts?
+  <strong style="color: #303030">
+    Raise a ticket at the
+    <a href="https://beta.solesearchindia.com/contact-us">link</a
+      >.</strong
+      >
+    </small>
+              </small>
+        </p>
+        <div
+          style="
+            height: 1px;
+            background: #e5e5e5;
+            margin: 20px 0;
+            width: 90vw;
+          "
+        ></div>
+        <table>
+          <tr>
+            <center>
+
+              <a
+              href="https://facebook.com/solesearchindia"
+              style="text-decoration: inherit"
+              >
+              <img
+              style="padding: 0 5px"
+              height="42"
+              src="https://plugin.markaimg.com/public/1b00812b/a7ZZjBLgAAPOLNvwyp09ii8LuYVs6W.png"
+              alt="Facebook"
+              />
+            </a>
+            <a
+            href="https://instagram.com/solesearchindia"
+            style="text-decoration: inherit"
+            >
+            <img
+            style="padding: 0 5px"
+            height="42"
+            src="https://plugin.markaimg.com/public/1b00812b/4UgPHjg4qeIMnXlyQOmSNjyyu2oEPt.png"
+            alt="Instagram"
+            />
+          </a>
+          <a
+          href="https://youtube.com/youtube"
+          style="text-decoration: inherit"
+          >
+          <img
+          style="padding: 0 5px"
+          height="42"
+          src="https://plugin.markaimg.com/public/1b00812b/926FTLZho2sJcdveZMoUPs6e6wLOvj.png"
+          alt="Youtube"
+          />
+        </a>
+      </center>
+          </tr>
+          <tr>
+            <a
+              href="https://beta.solesearchindia.com/app"
+              style="text-decoration: inherit"
+            >
+              <img
+                style="padding: 0 5px; height: 30px; margin-top: 10px"
+                height="42"
+                src="https://res.cloudinary.com/dx8gt3nnu/image/upload/logo/play-store"
+                alt="Play Store"
+              />
+            </a>
+            <a
+              href="https://beta.solesearchindia.com/app"
+              style="text-decoration: inherit"
+            >
+              <img
+                style="padding: 0 5px; height: 30px"
+                height="42"
+                src="https://res.cloudinary.com/dx8gt3nnu/image/upload/logo/app-store"
+                alt="App Store"
+              />
+            </a>
+          </tr>
+        </table>
+        <div style="width: 60%; color: #d0d0d0; margin: 10px 0">
+          <div>
+            <small>
+              You received this because you subscribed newsletter or downloaded
+              our product
+            </small>
+          </div>
+          <div style="margin-top: 10px">
+            <a
+              href="https://beta.solesearchindia.com/unsubscribe"
+              style="color: inherit"
+            >
+              <small>Unsubscribe</small>
+            </a>
+          </div>
+        </div>
+        <div class="logo">
+          <img
+            src="https://res.cloudinary.com/dx8gt3nnu/image/upload/logo/watermark-pink"
+            alt="SoleSearch Logo"
+            height="40"
+          />
+        </div>
+        <p>
+          <div style="width: 90%; color: #d0d0d0; margin: 10px 0"
+            >
+            <small>
+              <small>
+                Hey! This email is from our friendly bot who loves to chat. But
+                listening? Sorry, not its jam. So please <strong style="color: #303030">
+                  do not reply
+                </strong>
+                .
+                It's more of
+                a 'talk but don't listen bot'.
+              </small>
+            </small>
+            </div
+          >
+        </p>
+      </center>
+    </footer>
+</body>
+
+</html>
