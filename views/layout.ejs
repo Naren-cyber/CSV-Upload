@@ -4,68 +4,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   
-  <!-- Font Awesome CSS -->
+  <!--Font awesome cdn-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <!-- Font Awesome JavaScript Kit -->
   <script src="https://kit.fontawesome.com/e8e6c63b94.js" crossorigin="anonymous"></script>
   
-  <!-- Noty CSS and JavaScript -->
+  <!--Styles-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
-  
-  <!-- jQuery -->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/footer.css">
-  
-  <!-- Include custom style from your server (if provided) -->
-  <!-- <%= style %> -->
-  
-  <title><%= title %></title>
+  <%- style %>
+  <title><%= title%></title>
   <link rel="icon" type="image/x-icon" href="/images/csv-logo.png">
 </head>
 <body>
-  <!-- Include the header (assuming this is part of a templating engine) -->
-  <!-- <%- include('_header'); %> -->
+  <%- include('_header'); %>
 
   <div class="main">
-    <!-- Include the body content (assuming this is part of a templating engine) -->
-    <!-- <%- body %> -->
+    <%- body %>
+    
   </div>
   
-  <!-- Include the footer (assuming this is part of a templating engine) -->
-  <!-- <%- include('_footer'); %> -->
   
-  <!-- Include custom script from your server (if provided) -->
-  <!-- <%= script %> -->
-  
-  <!-- JavaScript to show notifications -->
+  <%- include('_footer'); %>
+  <%- script %>
   <script>
-    <% if (flash.success && flash.success.length > 0) { %>
-    
+    <% if(flash.success && flash.success.length > 0) { %>
       new Noty({
-        theme: 'metroui',
-        text: '<%= flash.success %>',
-        type: 'success',
-        layout: 'topRight',
-        timeout: 1000
+      theme:'metroui',
+      text: '<%= flash.success %>',
+      type: 'success',
+      layout: 'topRight',
+      timeout: 1000
       }).show();
-    <% } %>
+   <% } %>
 
-    <% if (flash.error && flash.error.length > 0) { %>
+   <% if(flash.error && flash.error.length > 0) { %>
       new Noty({
-        theme: 'metroui',
-        text: '<%= flash.error %>',
-        type: 'error',
-        layout: 'topRight',
-        timeout: 1000
+      theme:'metroui',
+      text: '<%= flash.error %>',
+      type: 'error',
+      layout: 'topRight',
+      timeout: 1000
       }).show();
-    <% } %>
-  </script>
+   <% } %>
+</script>
+
 </body>
 </html>
